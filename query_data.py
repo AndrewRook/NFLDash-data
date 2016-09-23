@@ -44,6 +44,14 @@ def query_db_plays():
                   "case when game.season_type = 'Regular' then game.week when game.season_type = 'Postseason' then game.week+17 else 0 end as week, "
                   "game.season_year, "
                   )
+    sql_string += ("case "
+                   "when play.first_down > 0 then 'First Down' "
+                   "when agg_play.defense_safe > 0 then 'Safety' "
+                   "when agg_play.defense_int > 0 then 'Interception' "
+                   "when agg_play.fumbles_tot > 0 then 'Fumble' "
+                   "when agg_play.defense_sk > 0 then 'Sack' "
+                   "else '' "
+                   "end as play_result, ")
     sql_string += ("greatest((agg_play.fumbles_rec_tds * 6), (agg_play.kicking_rec_tds * 6), (agg_play.passing_tds * 6), (agg_play.receiving_tds * 6), (agg_play.rushing_tds * 6), (agg_play.kicking_xpmade * 1), (agg_play.passing_twoptm * 2), (agg_play.receiving_twoptm * 2), (agg_play.rushing_twoptm * 2), (agg_play.kicking_fgm * 3)) as offense_play_points, "
                    "greatest((agg_play.defense_frec_tds * 6), (agg_play.defense_int_tds * 6), (agg_play.defense_misc_tds * 6), (agg_play.kickret_tds * 6), (agg_play.puntret_tds * 6), (agg_play.defense_safe * 2)) as defense_play_points, ")
     sql_string += "((game.home_score > game.away_score and play.pos_team = game.home_team) or (game.away_score > game.home_score and play.pos_team = game.away_team)) as offense_won, "
@@ -61,10 +69,11 @@ def query_db_plays():
     sql_string += ("inner join game on play.gsis_id = game.gsis_id ")
     sql_string += ("inner join agg_play on play.gsis_id = agg_play.gsis_id and play.drive_id = agg_play.drive_id and play.play_id = agg_play.play_id ")
     sql_string += ("where play.pos_team != 'UNK'  and (play.time).phase not in ('Pregame', 'Half', 'Final') and game.season_type != 'Preseason' ")
-    #sql_string += " limit 10000"
+    sql_string += " limit 10000"
     sql_string += ";"
 
     plays_df = pd.read_sql(sql_string, engine)
+    plays_df.loc[plays_df['offense_play_points'] >= 6, 'play_result'] = 'Touchdown'
     plays_df['down'] = plays_df['down'].fillna(value=0).astype(np.int8)
     plays_df = nflwin.utilities._aggregate_nfldb_scores(plays_df)
 
