@@ -52,6 +52,17 @@ def query_db_plays():
                    "when agg_play.defense_sk > 0 then 'Sack' "
                    "else '' "
                    "end as play_result, ")
+    sql_string += ("case "
+                   "when agg_play.rushing_att > 0 or agg_play.rushing_twopta > 0 then 'Rush' "
+                   "when agg_play.passing_att > 0 or agg_play.passing_sk > 0 or agg_play.passing_twopta > 0 then 'Pass' "
+                   "when agg_play.kicking_fga > 0 then 'Field Goal' "
+                   "when agg_play.kicking_xpa > 0 then 'Extra Point' "
+                   "when agg_play.punting_tot > 0 then 'Punt' "
+                   "when agg_play.kicking_tot > 0 then 'Kickoff' "
+                   "when play.timeout > 0 then 'Timeout' "
+                   "when play.penalty > 0 then 'Penalty' "
+                   "else 'Other' "
+                   "end as play_type, ")
     sql_string += ("greatest((agg_play.fumbles_rec_tds * 6), (agg_play.kicking_rec_tds * 6), (agg_play.passing_tds * 6), (agg_play.receiving_tds * 6), (agg_play.rushing_tds * 6), (agg_play.kicking_xpmade * 1), (agg_play.passing_twoptm * 2), (agg_play.receiving_twoptm * 2), (agg_play.rushing_twoptm * 2), (agg_play.kicking_fgm * 3)) as offense_play_points, "
                    "greatest((agg_play.defense_frec_tds * 6), (agg_play.defense_int_tds * 6), (agg_play.defense_misc_tds * 6), (agg_play.kickret_tds * 6), (agg_play.puntret_tds * 6), (agg_play.defense_safe * 2)) as defense_play_points, ")
     sql_string += "((game.home_score > game.away_score and play.pos_team = game.home_team) or (game.away_score > game.home_score and play.pos_team = game.away_team)) as offense_won, "
