@@ -80,7 +80,7 @@ def query_db_plays():
     sql_string += ("inner join game on play.gsis_id = game.gsis_id ")
     sql_string += ("inner join agg_play on play.gsis_id = agg_play.gsis_id and play.drive_id = agg_play.drive_id and play.play_id = agg_play.play_id ")
     sql_string += ("where play.pos_team != 'UNK'  and (play.time).phase not in ('Pregame', 'Half', 'Final') and game.season_type != 'Preseason' ")
-    sql_string += " limit 10000"
+    #sql_string += " limit 10000"
     sql_string += ";"
 
     plays_df = pd.read_sql(sql_string, engine)
@@ -133,9 +133,17 @@ def _compute_wpa_play(play):
     #     print(play)
     #     print("  ",wpa)
     return wpa
+
+def save_to_csv(df, file_prefix="plays", year_column="season_year"):
+    years = df[year_column].unique()
+    for year in years:
+        year_df = df[df[year_column] == year]
+        year_df.to_csv("{0}_{1}.csv".format(file_prefix, year), index=False)
     
+
 if __name__ == "__main__":
     plays_df = query_db_plays()
-    plays_df.to_csv("plays.csv", index=False)
+    save_to_csv(plays_df)
+    #plays_df.to_csv("plays.csv", index=False)
     player_df = query_db_players()
     player_df.to_csv("players.csv", index=False)
