@@ -59,8 +59,8 @@ player_id,full_name,position
 00-0028034,Alex Green,UNK
 00-0028058,Alex Henery,UNK
 00-0030503,Alex Okafor,OLB
-00-0023506,Alex Smith,UNK
 00-0023436,Alex Smith,QB
+00-0023506,Alex Smith,UNK
 00-0029623,Alex Tanney,UNK
 00-0027346,Alfonso Smith,UNK
 00-0029596,Alfonzo Dennard,UNK
@@ -117,7 +117,7 @@ player_id,full_name,position
 00-0026167,Antoine Cason,UNK
 00-0018093,Antoine Winfield,UNK
 00-0026855,Antone Smith,RB
-00-0029553,Antonio Allen,DB
+00-0029553,Antonio Allen,UNK
 00-0030789,Antonio Andrews,RB
 00-0027793,Antonio Brown,WR
 00-0024234,Antonio Cromartie,UNK
@@ -191,7 +191,7 @@ player_id,full_name,position
 00-0027477,Blair White,UNK
 00-0031407,Blake Bortles,QB
 00-0024129,Blake Costanzo,UNK
-00-0030541,Blidi Wreh-Wilson,DB
+00-0030541,Blidi Wreh-Wilson,UNK
 00-0023612,Bo Scaife,UNK
 00-0024233,Bobby Carpenter,UNK
 00-0029384,Bobby Rainey,RB
@@ -229,15 +229,15 @@ player_id,full_name,position
 00-0024356,Brandon Johnson,UNK
 00-0027681,Brandon LaFell,WR
 00-0022097,Brandon Lloyd,UNK
-00-0029620,Brandon Marshall,ILB
 00-0024334,Brandon Marshall,WR
+00-0029620,Brandon Marshall,ILB
 00-0025527,Brandon McDonald,UNK
 00-0023354,Brandon McGowan,UNK
 00-0029822,Brandon McManus,K
 00-0025472,Brandon Mebane,NT
 00-0025411,Brandon Meriweather,UNK
 00-0027135,Brandon Myers,TE
-00-0026996,Brandon Pettigrew,TE
+00-0026996,Brandon Pettigrew,UNK
 00-0025627,Brandon Siler,UNK
 00-0027668,Brandon Spikes,LB
 00-0015754,Brandon Stokley,UNK
@@ -306,7 +306,7 @@ player_id,full_name,position
 00-0031302,C.J. Fiedorowicz,TE
 00-0031296,C.J. Mosley,ILB
 00-0023624,C.J. Mosley,UNK
-00-0027861,C.J. Spiller,RB
+00-0027861,C.J. Spiller,UNK
 00-0026758,C.J. Spillman,UNK
 00-0027822,C.J. Wilson,DE
 00-0023440,Cadillac Williams,UNK
@@ -357,9 +357,9 @@ player_id,full_name,position
 00-0030668,Charcandrick West,RB
 00-0028112,Charles Clay,TE
 00-0026207,Charles Godfrey,UNK
-00-0030263,Charles James,DB
-00-0030113,Charles Johnson,WR
+00-0030263,Charles James,UNK
 00-0025470,Charles Johnson,DE
+00-0030113,Charles Johnson,WR
 00-0031390,Charles Sims,RB
 00-0022123,Charles Tillman,UNK
 00-0018227,Charles Woodson,UNK
@@ -395,17 +395,17 @@ player_id,full_name,position
 00-0022914,Chris Gamble,UNK
 00-0029614,Chris Givens,UNK
 00-0024286,Chris Gocong,UNK
-00-0028224,Chris Harris,CB
 00-0023614,Chris Harris,UNK
+00-0028224,Chris Harris,CB
 00-0028237,Chris Hogan,WR
 00-0021219,Chris Hope,UNK
 00-0025428,Chris Houston,UNK
 00-0027531,Chris Ivory,RB
 00-0027167,Chris Jennings,UNK
-00-0021949,Chris Johnson,UNK
 00-0026164,Chris Johnson,RB
-00-0028664,Chris Jones,P
+00-0021949,Chris Johnson,UNK
 00-0030106,Chris Jones,DE
+00-0028664,Chris Jones,P
 00-0021995,Chris Kelsay,UNK
 00-0023060,Chris Kluwe,UNK
 00-0026142,Chris Long,DE
@@ -559,7 +559,7 @@ player_id,full_name,position
 00-0024465,David Anderson,UNK
 00-0030517,David Bass,OLB
 00-0001563,David Bowens,UNK
-00-0027083,David Bruton,SS
+00-0027083,David Bruton,UNK
 00-0027119,David Buehler,UNK
 00-0027464,David Caldwell,UNK
 00-0020608,David Carr,UNK
@@ -597,6 +597,7 @@ player_id,full_name,position
 00-0027812,Dekoda Watson,LB
 00-0024389,Delanie Walker,TE
 00-0028057,Delone Carter,UNK
+00-0031474,Delvin Breaux,CB
 00-0029607,Demario Davis,ILB
 00-0027874,Demaryius Thomas,WR
 00-0030451,Demetrius McCray,UNK
@@ -805,7 +806,7 @@ player_id,full_name,position
 00-0028050,Greg Salas,UNK
 00-0026910,Greg Toler,DB
 00-0029621,Greg Zuerlein,K
-00-0029033,Griff Whalen,UNK
+00-0029033,Griff Whalen,WR
 00-0025566,H.B. Blades,UNK
 00-0031333,Ha Ha Clinton-Dix,FS
 00-0027005,Hakeem Nicks,UNK
@@ -966,7 +967,7 @@ player_id,full_name,position
 00-0031569,Jeremy Langford,RB
 00-0026995,Jeremy Maclin,WR
 00-0024405,Jeremy Mincey,UNK
-00-0028249,Jeremy Ross,WR
+00-0028249,Jeremy Ross,UNK
 00-0021148,Jeremy Shockey,UNK
 00-0029441,Jeremy Stewart,UNK
 00-0031376,Jerick McKinnon,RB
@@ -979,7 +980,7 @@ player_id,full_name,position
 00-0024359,Jerome Harrison,UNK
 00-0026186,Jerome Simpson,UNK
 00-0027244,Jeromy Miles,UNK
-00-0028441,Jeron Johnson,UNK
+00-0028441,Jeron Johnson,DB
 00-0027064,Jerraud Powers,DB
 00-0028021,Jerrel Jernigan,UNK
 00-0025920,Jerrell Freeman,ILB
@@ -1010,7 +1011,7 @@ player_id,full_name,position
 00-0031051,John Brown,WR
 00-0026178,John Carlson,UNK
 00-0021144,John Henderson,UNK
-00-0029266,John Hughes,DE
+00-0029266,John Hughes,UNK
 00-0030070,John Jenkins,DT
 00-0009028,John Kasay,UNK
 00-0022999,John Kuhn,FB
@@ -1028,7 +1029,7 @@ player_id,full_name,position
 00-0031409,Johnny Manziel,UNK
 00-0029065,Johnson Bademosi,CB
 00-0030469,Johnthan Banks,CB
-00-0027218,Joique Bell,UNK
+00-0027218,Joique Bell,RB
 00-0027964,Jon Baldwin,UNK
 00-0025412,Jon Beason,UNK
 00-0030064,Jon Bostic,LB
@@ -1052,7 +1053,7 @@ player_id,full_name,position
 00-0022409,Jordan Babineaux,UNK
 00-0031502,Jordan Berry,P
 00-0028040,Jordan Cameron,TE
-00-0030410,Jordan Gay,K
+00-0030410,Jordan Gay,UNK
 00-0032129,Jordan Hicks,MLB
 00-0032780,Jordan Howard,RB
 00-0031299,Jordan Matthews,WR
@@ -1078,7 +1079,7 @@ player_id,full_name,position
 00-0029664,Josh Gordon,WR
 00-0027503,Josh Gordy,UNK
 00-0030216,Josh Hill,TE
-00-0030990,Josh Huff,UNK
+00-0030990,Josh Huff,WR
 00-0026300,Josh Johnson,QB
 00-0032087,Josh Lambo,K
 00-0027170,Josh Mauga,ILB
@@ -1088,6 +1089,7 @@ player_id,full_name,position
 00-0029285,Josh Norman,CB
 00-0029691,Josh Robinson,DB
 00-0022874,Josh Scobee,UNK
+00-0032168,Josh Shaw,CB
 00-0028081,Josh Thomas,UNK
 00-0026644,Josh Vaughan,UNK
 00-0025442,Josh Wilson,UNK
@@ -1204,14 +1206,15 @@ player_id,full_name,position
 00-0025629,Keyunta Dawson,UNK
 00-0031040,Khalil Mack,DE
 00-0030027,Khaseem Greene,UNK
-00-0030348,Khiry Robinson,UNK
+00-0030348,Khiry Robinson,RB
 00-0030401,Kiko Alonso,MLB
 00-0029604,Kirk Cousins,QB
 00-0023513,Kirk Morrison,UNK
-00-0030280,Knile Davis,UNK
+00-0030280,Knile Davis,RB
 00-0026988,Knowshon Moreno,UNK
 00-0027883,Koa Misi,OLB
 00-0031336,Kony Ealy,DE
+00-0029289,Korey Toomer,ILB
 00-0026029,Kregg Lumpkin,UNK
 00-0001980,Kris Brown,UNK
 00-0028045,Kris Durham,UNK
@@ -1230,8 +1233,8 @@ player_id,full_name,position
 00-0027981,Kyle Rudolph,TE
 00-0020382,Kyle Vanden Bosch,UNK
 00-0029647,Kyle Wilber,OLB
-00-0024348,Kyle Williams,DE
 00-0027608,Kyle Williams,UNK
+00-0024348,Kyle Williams,DE
 00-0027879,Kyle Wilson,DB
 00-0028932,L.J. Fort,LB
 00-0020536,LaDainian Tomlinson,UNK
@@ -1331,7 +1334,7 @@ player_id,full_name,position
 00-0019599,Marc Bulger,UNK
 00-0027816,Marc Mariani,WR
 00-0024243,Marcedes Lewis,TE
-00-0026393,Marcel Reece,UNK
+00-0026393,Marcel Reece,FB
 00-0027941,Marcell Dareus,NT
 00-0026742,Marcus Benard,UNK
 00-0030127,Marcus Cooper,CB
@@ -1360,6 +1363,7 @@ player_id,full_name,position
 00-0028620,Mark Herzlich,OLB
 00-0027966,Mark Ingram,RB
 00-0026898,Mark Sanchez,QB
+00-0032127,Markus Golden,OLB
 00-0030460,Markus Wheaton,WR
 00-0030400,Marlon Brown,WR
 00-0027356,Marlon Moore,UNK
@@ -1418,8 +1422,8 @@ player_id,full_name,position
 00-0022217,Mewelde Moore,UNK
 00-0030090,Micah Hyde,SS
 00-0025668,Michael Adams,UNK
-00-0026618,Michael Bennett,DE
 00-0020514,Michael Bennett,UNK
+00-0026618,Michael Bennett,DE
 00-0023593,Michael Boley,UNK
 00-0029630,Michael Brockers,DT
 00-0025487,Michael Bush,UNK
@@ -1436,6 +1440,7 @@ player_id,full_name,position
 00-0030392,Michael Mauti,UNK
 00-0024315,Michael Robinson,UNK
 00-0028908,Michael Thomas,FS
+00-0032765,Michael Thomas,WR
 00-0022821,Michael Turner,UNK
 00-0028836,Michael Wilhoite,ILB
 00-0023968,Micheal Spurlock,UNK
@@ -1524,7 +1529,7 @@ player_id,full_name,position
 00-0023096,Nick Novak,K
 00-0029408,Nick Perry,OLB
 00-0024750,Nick Roach,UNK
-00-0029848,Nick Williams,UNK
+00-0029848,Nick Williams,WR
 00-0030041,Nickell Robey-Coleman,DB
 00-0029272,Nigel Bradham,OLB
 00-0028093,Niles Paul,TE
@@ -1565,7 +1570,7 @@ player_id,full_name,position
 00-0025495,Paul Soliai,DT
 00-0029792,Paul Worrilow,MLB
 00-0033108,Paxton Lynch,QB
-00-0026998,Percy Harvin,WR
+00-0026998,Percy Harvin,UNK
 00-0027000,Peria Jerry,UNK
 00-0028103,Pernell McPhee,OLB
 00-0027737,Perrish Cox,UNK
@@ -1587,6 +1592,7 @@ player_id,full_name,position
 00-0019642,Plaxico Burress,UNK
 00-0031171,Preston Brown,ILB
 00-0027450,Preston Parker,UNK
+00-0031935,Preston Smith,OLB
 00-0027957,Prince Amukamara,CB
 00-0031514,Quan Bray,WR
 00-0026716,Quan Cosby,UNK
@@ -1607,9 +1613,10 @@ player_id,full_name,position
 00-0021340,Raheem Brock,UNK
 00-0031687,Raheem Mostert,UNK
 00-0027983,Rahim Moore,UNK
+00-0031943,Ramik Wilson,ILB
 00-0026672,Ramon Humber,LB
 00-0028002,Randall Cobb,WR
-00-0029421,Randy Bullock,UNK
+00-0029421,Randy Bullock,K
 00-0021236,Randy McMichael,UNK
 00-0011754,Randy Moss,UNK
 00-0022805,Randy Starks,UNK
@@ -1679,7 +1686,7 @@ player_id,full_name,position
 00-0029665,Robert Griffin III,QB
 00-0027509,Robert Malone,UNK
 00-0022059,Robert Mathis,OLB
-00-0027840,Robert McClain,CB
+00-0027840,Robert McClain,UNK
 00-0025414,Robert Meachem,UNK
 00-0027952,Robert Quinn,DE
 00-0029273,Robert Turbin,RB
@@ -1719,10 +1726,10 @@ player_id,full_name,position
 00-0020840,Ryan Clark,UNK
 00-0029053,Ryan Davis,LB
 00-0023682,Ryan Fitzpatrick,QB
-00-0031068,Ryan Grant,WR
 00-0022984,Ryan Grant,UNK
-00-0030108,Ryan Griffin,TE
+00-0031068,Ryan Grant,WR
 00-0029857,Ryan Griffin,QB
+00-0030108,Ryan Griffin,TE
 00-0027954,Ryan Kerrigan,OLB
 00-0029531,Ryan Lindley,UNK
 00-0010072,Ryan Longwell,UNK
@@ -1844,6 +1851,7 @@ player_id,full_name,position
 00-0025944,Steven Hauschka,K
 00-0022736,Steven Jackson,UNK
 00-0028943,Steven Johnson,LB
+00-0032150,Steven Nelson,CB
 00-0027842,Stevie Brown,UNK
 00-0025474,Stewart Bradley,UNK
 00-0031243,Storm Johnson,UNK
@@ -1959,6 +1967,7 @@ player_id,full_name,position
 00-0032462,Trevone Boykin,QB
 00-0026309,Trevor Scott,UNK
 00-0032156,Trevor Siemian,QB
+00-0030710,Trey Burton,TE
 00-0027606,Trindon Holliday,UNK
 00-0026948,Troy Nolan,UNK
 00-0022119,Troy Polamalu,UNK
@@ -2013,6 +2022,7 @@ player_id,full_name,position
 00-0026105,Wallace Gilberry,DE
 00-0031268,Walt Powell,WR
 00-0027711,Walter Thurmond,UNK
+00-0032782,Wendell Smallwood,RB
 00-0022427,Wes Welker,UNK
 00-0025828,Wesley Woodyard,ILB
 00-0029643,Whitney Mercilus,OLB

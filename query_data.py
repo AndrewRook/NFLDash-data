@@ -81,6 +81,7 @@ def query_db_plays():
     sql_string += ("inner join agg_play on play.gsis_id = agg_play.gsis_id and play.drive_id = agg_play.drive_id and play.play_id = agg_play.play_id ")
     sql_string += ("where play.pos_team != 'UNK'  and (play.time).phase not in ('Pregame', 'Half', 'Final') and game.season_type != 'Preseason' ")
     #sql_string += " limit 10000"
+    sql_string += " and game.season_year = 2016"
     sql_string += ";"
 
     plays_df = pd.read_sql(sql_string, engine)
