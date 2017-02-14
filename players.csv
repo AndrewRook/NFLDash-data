@@ -310,8 +310,8 @@ player_id,full_name,position
 00-0023621,C.C. Brown,UNK
 00-0029854,C.J. Anderson,RB
 00-0031302,C.J. Fiedorowicz,TE
-00-0023624,C.J. Mosley,UNK
 00-0031296,C.J. Mosley,ILB
+00-0023624,C.J. Mosley,UNK
 00-0027861,C.J. Spiller,UNK
 00-0026758,C.J. Spillman,UNK
 00-0027822,C.J. Wilson,DE
@@ -456,6 +456,7 @@ player_id,full_name,position
 00-0030551,Colton Schmidt,P
 00-0026138,Connor Barth,K
 00-0027022,Connor Barwin,DE
+00-0032893,Connor Cook,QB
 00-0028707,Corbin Bryant,NT
 00-0030578,Cordarrelle Patterson,WR
 00-0031118,Corey Brown,WR
@@ -1260,8 +1261,8 @@ player_id,full_name,position
 00-0027981,Kyle Rudolph,TE
 00-0020382,Kyle Vanden Bosch,UNK
 00-0029647,Kyle Wilber,OLB
-00-0027608,Kyle Williams,UNK
 00-0024348,Kyle Williams,DE
+00-0027608,Kyle Williams,UNK
 00-0027879,Kyle Wilson,DB
 00-0028932,L.J. Fort,LB
 00-0020536,LaDainian Tomlinson,UNK
@@ -1451,8 +1452,8 @@ player_id,full_name,position
 00-0022217,Mewelde Moore,UNK
 00-0030090,Micah Hyde,SS
 00-0025668,Michael Adams,UNK
-00-0020514,Michael Bennett,UNK
 00-0026618,Michael Bennett,DE
+00-0020514,Michael Bennett,UNK
 00-0023593,Michael Boley,UNK
 00-0029630,Michael Brockers,DT
 00-0025487,Michael Bush,UNK
@@ -1468,8 +1469,8 @@ player_id,full_name,position
 00-0021185,Michael Lewis,UNK
 00-0030392,Michael Mauti,UNK
 00-0024315,Michael Robinson,UNK
-00-0028908,Michael Thomas,FS
 00-0032765,Michael Thomas,WR
+00-0028908,Michael Thomas,FS
 00-0022821,Michael Turner,UNK
 00-0028836,Michael Wilhoite,ILB
 00-0023968,Micheal Spurlock,UNK
@@ -1504,8 +1505,8 @@ player_id,full_name,position
 00-0020245,Mike Vick,UNK
 00-0016960,Mike Vrabel,UNK
 00-0026901,Mike Wallace,WR
-00-0027702,Mike Williams,UNK
 00-0023452,Mike Williams,UNK
+00-0027702,Mike Williams,UNK
 00-0027995,Mikel Leshoure,UNK
 00-0023921,Miles Austin,UNK
 00-0029631,Miles Burris,UNK
@@ -1759,10 +1760,10 @@ player_id,full_name,position
 00-0020840,Ryan Clark,UNK
 00-0029053,Ryan Davis,LB
 00-0023682,Ryan Fitzpatrick,QB
-00-0022984,Ryan Grant,UNK
 00-0031068,Ryan Grant,WR
-00-0030108,Ryan Griffin,TE
+00-0022984,Ryan Grant,UNK
 00-0029857,Ryan Griffin,QB
+00-0030108,Ryan Griffin,TE
 00-0027954,Ryan Kerrigan,OLB
 00-0029531,Ryan Lindley,UNK
 00-0010072,Ryan Longwell,UNK
